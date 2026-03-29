@@ -1,40 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Cadastro</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Aluno</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
+<style>
+    .quadrado{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: auto;
+}
+</style>
 <body>
+    <div class="quadrado">
+    <h2>Cadastro de aluno</h2>
 
-<div class="container">
+    <form>
+    <label>Nome</label>
+    <input type="text" required>
+    <br>
 
-<h2>Cadastro de aluno</h2>
+    <label>Email</label>
+    <input type="email" required>
+    <br>
 
-<form>
+    <label>Telefone</label>
+    <input type="tel" required>
+    <br>
 
-<label>Nome</label>
-<input type="text" required>
+    <label>Curso</label>
+    <select>
+    <option>HTML</option>
+    <option>CSS</option>
+    <option>JAVA</option>
+    <option>PHP</option>
+    <br>
 
-<label>Email</label>
-<input type="email" required>
+    </select>
 
-<label>Telefone</label>
-<input type="tel" required>
+    <button type="submit">Cadastrar</button>
 
-<label>Curso</label>
-<select>
-<option>HTML</option>
-<option>CSS</option>
-<option>JavaScript</option>
-<option>PHP</option>
-</select>
-
-<button type="submit">Cadastrar</button>
-
-</form>
-
-</div>
-
+    </form>
+    </div>
+    
 </body>
 </html>
