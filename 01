@@ -8,18 +8,29 @@
 </head>
 
 <style>
-    .container{
-    width: 300px;
-    height: 300px;
-    border: 2px solid black;
-    padding: 20px;
-    margin: auto;
-}
+        body {
+            background-color: #ffd0f7;
+            font-family: Arial;
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh;
+        }
+
+        .container {
+            width: 300px;
+            height: 300px;
+            background-color: rgb(255, 179, 223);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 0 auto;
+
+        }
 
 
-    input {
-        width: 100%;
-        margin-bottom: 10px;
+        input {
+            width: 100%;
+            margin-bottom: 10px;
         }
 
 </style>
@@ -44,7 +55,7 @@
     <select>
     <option>HTML</option>
     <option style="background-color: rgb(36, 149, 111);">CSS</option>
-    <option style="color: rgb(80, 100, 1);">JAVA</option>
+    <option style="color: rgb(253, 154, 24);">JAVA</option>
     <option style="color: rgb(240, 36, 97);">PHP</option>
     <br>
 
